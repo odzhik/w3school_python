@@ -20,28 +20,30 @@ print(10 // 5) # округляет результат до целого чис�
 # Operator	Example	Same As	Try it
 # =	x = 5	x = 5	
 x = 5
+print(x)
 # +=	x += 3	x = x + 3	
-x += 5 
-x = x +5
+# x += 5 
+# x = x +5
+
 # -=	x -= 3	x = x - 3	
-x - = 5
-x = x + 5
+# x - = 5
+# x = x + 5
 # *=	x *= 3	x = x * 3	
-x *= 5
-x = x * 5
+# x *= 5
+# x = x * 5
 # /=	x /= 3	x = x / 3	
-x /= 5
-x = x / 5
+# x /= 5
+# x = x / 5
 # %=	x %= 3	x = x % 3	
 
 # //=	x //= 3	x = x // 3	
 # **=	x **= 3	x = x ** 3	
 # &=	x &= 3	x = x & 3	
-x &= 3 
-x = x & 3
+# x &= 3 
+# x = x & 3
 # |=	x |= 3	x = x | 3	
 # ^=	x ^= 3	x = x ^ 3	
-x ^= 5 x = x ^ 5
+# x ^= 5 x = x ^ 5
 # >>=	x >>= 3	x = x >> 3	
 # <<=	x <<= 3	x = x << 3
 
@@ -50,9 +52,9 @@ x ^= 5 x = x ^ 5
 
 # Operator	Name	Example	Try it
 # ==	Equal	x == y	
-x == y
+# x == y
 # !=	Not equal	x != y	
-x !=  y
+# x !=  y
 # >	Greater than	x > y	
 # <	Less than	x < y	
 # >=	Greater than or equal to	x >= y	
