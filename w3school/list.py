@@ -98,3 +98,60 @@ thislist = ["apple", "banana", "cherry"]
 for x in thislist: # loop all items
   print(x)
 
+#List comprehension
+  
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
+
+for x in fruits:
+  if "a" in x:
+    newlist.append(x)
+
+print(newlist)
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+newlist = [x for x in fruits if "a" in x]
+
+print(newlist)
+
+# The Syntax
+# newlist = [expression for item in iterable if condition == True]
+
+newlist = [x for x in fruits]
+print(newlist)
+
+cars = ["Mercedes", "BMW", "Porsche", "Volkswagen", "Bugatti", "Pagani"]
+cars.sort() # from A to Z
+print(cars)
+cars.sort(reverse = True) # From Z to A
+print(cars)
+
+salary = [15, 40, 10, 8, 200, 11, 24]
+salary.sort()#from 0 to ...
+print(salary)
+salary.sort(reverse = True) #from 999999.. to 1
+print(salary)
+
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.sort(key = str.lower)
+print(thislist)
+thislist.reverse()
+print(thislist)
+
+bmw = ["3 series", "5 series", "7 series", "X5"]
+car_mod = bmw.copy()
+print(car_mod)
+
+
+
+list1 = [1, 2, 4, 5]
+list2 = ["a", "b", "c"]
+list3 = list1 + list2
+print(list3) # 1,2,4,5, a, b, c
+
+list1.extend(list2)
+print(list1) # list1 = 1,2,4,5, a, b, c
+
+
+
